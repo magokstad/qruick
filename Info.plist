@@ -1,0 +1,74 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Qruick</string>
+
+	<key>CFBundleExecutable</key>
+	<string>qruick</string>
+
+	<key>CFBundleIdentifier</key>
+	<string>com.example.Qruick</string>
+
+	<key>CFBundleName</key>
+	<string>Qruick</string>
+
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>ISGraphicIconConfiguration</key>
+		<dict>
+			<key>ISEnclosureColor</key>
+			<string>black</string>
+			<key>ISSymbolColor</key>
+			<string>white</string>
+			<key>ISSymbolName</key>
+			<string>qrcode</string>
+		</dict>
+	</dict>
+
+	<key>CFBundleVersion</key>
+	<string>0.1.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en_US</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UISupportsTrueScreenSizeOnMac</key>
+	<true/>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+		<string>metal</string>
+	</array>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+		<string>iPadOS</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

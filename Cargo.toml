@@ -1,0 +1,34 @@
+[package]
+name = "qruick"
+version = "0.1.0"
+authors = ["Magnus Økstad <magokstad@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dioxus = { version = "0.6.0", features = [] }
+dioxus-sdk = { version = "0.6.0", features = ["storage"] }
+qrcode = "0.14.1"
+# dioxus-primitives = { git = "https://github.com/DioxusLabs/components", version = "0.0.1" }
+
+[features]
+default = ["mobile"]
+web = ["dioxus/web"]
+desktop = ["dioxus/desktop"]
+mobile = ["dioxus/mobile"]
+
+[profile]
+
+[profile.wasm-dev]
+inherits = "dev"
+opt-level = 1
+
+[profile.server-dev]
+inherits = "dev"
+
+[profile.android-dev]
+inherits = "dev"
+
+# [profile.ios-dev]
+# inherits = "dev"
