@@ -1,25 +1,25 @@
-# Development
+# Qruick
 
-Your new bare-bones project includes minimal organization with a single `main.rs` file and a few assets.
+![Showcase of Qruick](./img/showcase.png)
 
-```
-project/
-├─ assets/ # Any assets that are used by the app should be placed here
-├─ src/
-│  ├─ main.rs # main.rs is the entry point to your application and currently contains all components for the app
-├─ Cargo.toml # The Cargo.toml file defines the dependencies and feature flags for your project
-```
+A simple QR-code generator app made with Dioxus
 
-### Serving Your App
+This is made with mobile-first in mind. To try it on an ios emulator, run `dx
+serve --platfrom ios`.
 
-Run the following command in the root of your project to start developing with the default platform:
+## Physical iPhone
 
-```bash
-dx serve
-```
+Actually getting it signed for a physical iPhone is a bit harder, and requires
+a valid signature and `mobileprovision` file linked to your iPhone and developer
+signature. Move your mobileprovision file into the root of the build directory
+then run `python3 bundle.py -i <signature-id>` to sign the app. You might have
+to run it twice. If done correctly, you should now have a valid signed app you
+can deploy to your iphone using `ios-deploy`
 
-To run for a different platform, use the `--platform platform` flag. E.g.
-```bash
-dx serve --platform desktop
-```
+## Android
 
+I have not tried android yet, but will look at it soon.
+
+## Desktop
+
+Works flawlessly with `dx serve --platform desktop`
