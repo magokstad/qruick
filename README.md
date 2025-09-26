@@ -1,7 +1,6 @@
 # Qruick
 
-![Showcase of Qruick](./img/showcase.png)
-
+<img src="./img/showcase.png" width=400px />
 A simple QR-code generator app made with Dioxus
 
 This is made with mobile-first in mind. To try it on an ios emulator, run `dx
